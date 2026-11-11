@@ -22,18 +22,19 @@
 | 7 | [Congruencia de triángulos](#7-congruencia-de-triángulos) | Geometría |
 | 8 | [Relaciones métricas en el triángulo rectángulo](#8-relaciones-métricas-en-el-triángulo-rectángulo) | Geometría |
 | 9 | [Relaciones métricas en el triángulo oblicuángulo](#9-relaciones-métricas-en-el-triángulo-oblicuángulo) | Geometría |
-| 10 | [Polígonos regulares (triángulo, cuadrado, hexágono)](#10-polígonos-regulares) | Geometría |
-| 11 | [Geometría analítica: el punto](#11-geometría-analítica-el-punto) | Geometría |
-| 12 | [Ecuación cartesiana de la recta](#12-ecuación-cartesiana-de-la-recta) | Geometría |
-| 13 | [Verdades y mentiras](#13-verdades-y-mentiras) | Raz. Matemático |
-| 14 | [Calendarios](#14-calendarios) | Raz. Matemático |
-| 15 | [Sistemas de medidas angulares](#15-sistemas-de-medidas-angulares) | Trigonometría |
-| 16 | [Sector circular](#16-sector-circular) | Trigonometría |
-| 17 | [Razones trigonométricas del ángulo agudo](#17-razones-trigonométricas-del-ángulo-agudo) | Trigonometría |
+| 10 | [Relaciones métricas en la circunferencia](#10-relaciones-métricas-en-la-circunferencia) | Geometría |
+| 11 | [Polígonos regulares (triángulo, cuadrado, hexágono)](#11-polígonos-regulares) | Geometría |
+| 12 | [Geometría analítica: el punto](#12-geometría-analítica-el-punto) | Geometría |
+| 13 | [Ecuación cartesiana de la recta](#13-ecuación-cartesiana-de-la-recta) | Geometría |
+| 14 | [Verdades y mentiras](#14-verdades-y-mentiras) | Raz. Matemático |
+| 15 | [Calendarios](#15-calendarios) | Raz. Matemático |
+| 16 | [Sistemas de medidas angulares](#16-sistemas-de-medidas-angulares) | Trigonometría |
+| 17 | [Sector circular](#17-sector-circular) | Trigonometría |
+| 18 | [Razones trigonométricas del ángulo agudo](#18-razones-trigonométricas-del-ángulo-agudo) | Trigonometría |
 | ★ | [Simulacro final](#-simulacro-final-20-preguntas) | Mixto |
 | ★ | [Consejos para el día del examen](#-consejos-para-el-día-del-examen) | — |
 
-> 📝 Nota: en las bases aparece "relaciones métricas en el triángulo rectángulo" dos veces (lo tomamos como un solo tema) y "polinomios regulares" se refiere a **polígonos regulares**.
+> 📝 Nota: en las bases aparece "relaciones métricas en el triángulo rectángulo" dos veces (lo tomamos como un solo tema) y "polinomios regulares" se refiere a **polígonos regulares**. Se agregó además **relaciones métricas en la circunferencia** (tema 10).
 
 ---
 
@@ -51,11 +52,11 @@ Dedica **2 a 3 horas diarias**. Regla de oro: **40 % teoría, 60 % ejercicios**.
 | 6 | Funciones | Dominio y rango de cualquier función típica |
 | 7 | **Repaso Álgebra** + mini simulacro (temas 1–6) | Detectar errores frecuentes |
 | 8 | Congruencia + relaciones métricas (rectángulo) | Bisectriz, mediatriz, base media, h² = m·n |
-| 9 | Triángulo oblicuángulo + polígonos regulares | Herón, Euclides, mediana, l₃, l₄, l₆ |
-| 10 | Geometría analítica (punto) + recta | Distancias, razón, área, ecuación de recta |
-| 11 | Verdades y mentiras + calendarios | Método de contradicciones, módulo 7 |
-| 12 | Medidas angulares + sector circular | S/9 = C/10 = 20R/π, L = θr |
-| 13 | Razones trigonométricas | Triángulos notables de memoria |
+| 9 | Triángulo oblicuángulo + relaciones métricas en la circunferencia | Herón, Euclides, mediana, cuerdas, secantes, tangente |
+| 10 | Polígonos regulares + geometría analítica (punto) | l₃, l₄, l₆, distancias, razón, área |
+| 11 | Ecuación de la recta + verdades y mentiras | Paralelas/perpendiculares, método de contradicciones |
+| 12 | Calendarios + medidas angulares | Módulo 7, S/9 = C/10 = 20R/π |
+| 13 | Sector circular + razones trigonométricas | L = θr, triángulos notables de memoria |
 | 14 | **Simulacro final** (al final de esta guía) + repaso de fórmulas | Medir tiempo: ~3 min por pregunta |
 
 ✅ **Tip:** arma un "cuaderno de errores": cada vez que falles un ejercicio, anota por qué. Repásalo el día 7 y el día 14.
@@ -731,9 +732,102 @@ Si **mc** es la mediana relativa al lado c:
 
 ---
 
-## 10. Polígonos regulares
+## 10. Relaciones métricas en la circunferencia
 
-### 10.1 Fórmulas generales (n lados)
+### 10.1 Elementos que debes reconocer
+
+- **Cuerda:** segmento que une dos puntos de la circunferencia (la mayor es el diámetro).
+- **Secante:** recta que corta a la circunferencia en **dos** puntos.
+- **Tangente:** recta que toca a la circunferencia en **un solo** punto (punto de tangencia T).
+- **Propiedad clave:** el radio trazado al punto de tangencia es **perpendicular** a la tangente (OT ⊥ PT).
+- **El radio perpendicular a una cuerda la biseca** (la divide en dos partes iguales).
+
+### 10.2 Teoremas principales
+
+| Teorema | Situación | Fórmula |
+|---------|-----------|---------|
+| **De las cuerdas** | Dos cuerdas AB y CD se cortan en P (dentro) | **PA · PB = PC · PD** |
+| **De las secantes** | Dos secantes desde P (fuera): P–A–B y P–C–D | **PA · PB = PC · PD** |
+| **De la tangente** | Tangente PT y secante P–A–B desde P (fuera) | **PT² = PA · PB** |
+| **Tangentes iguales** | Dos tangentes PT y PT' desde P (fuera) | **PT = PT'** |
+
+```
+CUERDAS (P adentro):   A ───── P ───── B        PA · PB = PC · PD
+                       C ───── P ───── D        (pedazo × pedazo)
+
+SECANTES (P afuera):   P ── A ══════ B          PA · PB = PC · PD
+                       P ── C ══════ D          (externa × completa)
+
+TANGENTE (P afuera):   P ────────── T           PT² = PA · PB
+                       P ── A ══════ B
+                       (══ = parte que queda dentro del círculo)
+```
+
+🧠 **Cómo recordarlo:** en las secantes se multiplica **"parte externa × secante completa"** (PA es la parte externa, PB toda la secante). En cuerdas, **"pedazo × pedazo"**.
+
+⚠️ **Error típico:** en el teorema de las secantes, NO multipliques PA · AB; es **PA · PB** (secante entera).
+
+### 10.3 Cuerda, radio y distancia al centro
+
+Si una cuerda de longitud **c** está a una distancia **d** del centro de una circunferencia de radio **r**:
+
+**(c/2)² + d² = r²**
+
+Y si desde un punto P a distancia **D** del centro trazas una tangente:  **PT² = D² − r²**
+
+### 10.4 Teoremas complementarios (también salen en la ONAT)
+
+- **Teorema de Poncelet** (triángulo rectángulo con circunferencia inscrita de radio r): **a + b = c + 2r**  (catetos a, b; hipotenusa c)
+- **Teorema de Pitot** (cuadrilátero circunscrito a una circunferencia): **AB + CD = BC + AD** (sumas de lados opuestos iguales)
+
+### 10.5 Ejemplos resueltos
+
+**Ejemplo 1 (cuerdas).** Las cuerdas AB y CD se cortan en P. Si PA = 4, PB = 6 y PC = 3, halla PD.
+> 4 · 6 = 3 · PD ⟹ **PD = 8**
+
+**Ejemplo 2 (secantes).** Desde P se trazan las secantes P–A–B y P–C–D. Si PA = 4, AB = 5 y PC = 3, halla CD.
+> PB = 4 + 5 = 9 ⟹ 4 · 9 = 3 · PD ⟹ PD = 12 ⟹ **CD = 12 − 3 = 9**
+
+**Ejemplo 3 (tangente).** Desde P se trazan la tangente PT y la secante P–A–B. Si PA = 4 y PB = 16, halla PT.
+> PT² = 4 · 16 = 64 ⟹ **PT = 8**
+
+**Ejemplo 4 (cuerda y distancia).** En una circunferencia de radio 5, una cuerda está a 3 unidades del centro. Halla la cuerda.
+> (c/2)² + 9 = 25 ⟹ c/2 = 4 ⟹ **c = 8**
+
+**Ejemplo 5 (con ecuación).** Dos cuerdas se cortan en P: PA = x, PB = x + 5, PC = 2 y PD = 12. Halla x.
+> x(x + 5) = 24 ⟹ x² + 5x − 24 = 0 ⟹ (x + 8)(x − 3) = 0 ⟹ **x = 3**
+
+**Ejemplo 6 (Poncelet).** Un triángulo rectángulo tiene lados 6, 8 y 10. Halla el radio de la circunferencia inscrita.
+> 6 + 8 = 10 + 2r ⟹ **r = 2**
+
+### 10.6 Práctica
+
+1. Dos cuerdas se cortan en P: PA = 6, PB = 4 y PC = 8. Halla PD.
+2. Desde P se trazan las secantes P–A–B y P–C–D. Si PA = 3, AB = 5 y PC = 4, halla CD.
+3. Desde P se trazan la tangente PT = 6 y la secante P–A–B con PA = 4. Halla AB.
+4. En una circunferencia de radio 13 hay una cuerda de 24. ¿A qué distancia del centro está?
+5. P es el punto medio de la cuerda AB y está sobre la cuerda CD, con PC = 2 y PD = 8. Halla AB.
+6. Halla el radio de la circunferencia inscrita en un triángulo rectángulo de catetos 5 y 12.
+7. Un cuadrilátero ABCD está circunscrito a una circunferencia. Si AB = 7, BC = 9 y CD = 10, halla AD.
+8. Un punto P está a 10 unidades del centro de una circunferencia de radio 6. Halla la longitud de la tangente trazada desde P.
+
+<details><summary>Ver respuestas</summary>
+
+1. 6 · 4 = 8 · PD ⟹ **PD = 3**
+2. PB = 8 ⟹ 3 · 8 = 4 · PD ⟹ PD = 6 ⟹ **CD = 2**
+3. 36 = 4 · PB ⟹ PB = 9 ⟹ **AB = 5**
+4. 12² + d² = 13² ⟹ **d = 5**
+5. PA² = 2 · 8 = 16 ⟹ PA = 4 ⟹ **AB = 8**
+6. Hipotenusa 13 ⟹ 5 + 12 = 13 + 2r ⟹ **r = 2**
+7. AB + CD = BC + AD ⟹ 17 = 9 + AD ⟹ **AD = 8**
+8. PT² = 100 − 36 = 64 ⟹ **PT = 8**
+</details>
+
+---
+
+## 11. Polígonos regulares
+
+### 11.1 Fórmulas generales (n lados)
 
 | Elemento | Fórmula |
 |----------|---------|
@@ -744,7 +838,7 @@ Si **mc** es la mediana relativa al lado c:
 | Número de diagonales | **n(n − 3)/2** |
 | Área | **p · ap** (p = semiperímetro, ap = apotema) |
 
-### 10.2 Polígonos inscritos en una circunferencia de radio R
+### 11.2 Polígonos inscritos en una circunferencia de radio R
 
 | Polígono | Lado | Apotema | Área |
 |----------|------|---------|------|
@@ -752,7 +846,7 @@ Si **mc** es la mediana relativa al lado c:
 | Cuadrado | **l₄ = R√2** | **ap₄ = R√2/2** | l² |
 | Hexágono regular | **l₆ = R** | **ap₆ = R√3/2** | **3l²√3/2** |
 
-### 10.3 Datos clave de cada uno
+### 11.3 Datos clave de cada uno
 
 **Triángulo equilátero (lado l):**
 - Altura h = l√3/2 ; Área = l²√3/4
@@ -766,7 +860,7 @@ Si **mc** es la mediana relativa al lado c:
 - Se divide en **6 triángulos equiláteros** de lado l ⟹ Área = 6·(l²√3/4)
 - Ángulo interior 120° ; diagonal mayor = 2l ; diagonal menor = l√3
 
-### 10.4 Ejemplos resueltos
+### 11.4 Ejemplos resueltos
 
 **Ejemplo 1.** Área de un hexágono regular de lado 4.
 > 3·16·√3/2 = **24√3**
@@ -780,7 +874,7 @@ Si **mc** es la mediana relativa al lado c:
 **Ejemplo 4.** Un cuadrado está inscrito en una circunferencia de radio 5√2. Halla su área.
 > l = 5√2·√2 = 10 ⟹ **100**
 
-### 10.5 Práctica
+### 11.5 Práctica
 
 1. Ángulo interior de un octógono regular.
 2. Número de diagonales de un decágono.
@@ -801,9 +895,9 @@ Si **mc** es la mediana relativa al lado c:
 
 ---
 
-## 11. Geometría analítica: el punto
+## 12. Geometría analítica: el punto
 
-### 11.1 Fórmulas
+### 12.1 Fórmulas
 
 Sean A(x₁, y₁), B(x₂, y₂), C(x₃, y₃).
 
@@ -816,7 +910,7 @@ Sean A(x₁, y₁), B(x₂, y₂), C(x₃, y₃).
 | **Baricentro** | G = ((x₁ + x₂ + x₃)/3 , (y₁ + y₂ + y₃)/3) |
 | **Área de la región triangular** | S = ½ · \|x₁(y₂ − y₃) + x₂(y₃ − y₁) + x₃(y₁ − y₂)\| |
 
-### 11.2 Método práctico del área ("productos cruzados")
+### 12.2 Método práctico del área ("productos cruzados")
 
 Escribe los vértices en columna, repitiendo el primero al final:
 
@@ -836,7 +930,7 @@ Escribe los vértices en columna, repitiendo el primero al final:
 - Si conoces el punto medio M y un extremo A: B = 2M − A.
 - Si el área da 0, los tres puntos son **colineales**.
 
-### 11.3 Ejemplos resueltos
+### 12.3 Ejemplos resueltos
 
 **Ejemplo 1.** Distancia entre (1, 2) y (4, 6).
 > √(9 + 16) = **5**
@@ -862,7 +956,7 @@ Escribe los vértices en columna, repitiendo el primero al final:
 **Ejemplo 6.** M(3, 4) es punto medio de AB y A(1, −2). Halla B.
 > B = 2M − A = (6 − 1, 8 + 2) = **(5, 10)**
 
-### 11.4 Práctica
+### 12.4 Práctica
 
 1. Distancia entre (−2, 3) y (4, −5).
 2. Punto medio de (6, −4) y (−2, 8).
@@ -887,14 +981,14 @@ Escribe los vértices en columna, repitiendo el primero al final:
 
 ---
 
-## 12. Ecuación cartesiana de la recta
+## 13. Ecuación cartesiana de la recta
 
-### 12.1 Pendiente
+### 13.1 Pendiente
 
 - **m = (y₂ − y₁)/(x₂ − x₁) = tan θ** (θ = ángulo de inclinación)
 - θ = 0° ⟹ m = 0 (horizontal) ; θ = 45° ⟹ m = 1 ; θ = 135° ⟹ m = −1 ; θ = 60° ⟹ m = √3 ; θ = 90° ⟹ vertical (sin pendiente)
 
-### 12.2 Formas de la ecuación
+### 13.2 Formas de la ecuación
 
 | Forma | Ecuación |
 |-------|----------|
@@ -904,7 +998,7 @@ Escribe los vértices en columna, repitiendo el primero al final:
 | Simétrica (interceptos) | **x/a + y/b = 1** (corta al eje X en a y al eje Y en b) |
 | Horizontal / vertical | y = k ; x = k |
 
-### 12.3 Posiciones relativas y distancias
+### 13.3 Posiciones relativas y distancias
 
 - **Paralelas:** m₁ = m₂
 - **Perpendiculares:** m₁ · m₂ = −1
@@ -913,7 +1007,7 @@ Escribe los vértices en columna, repitiendo el primero al final:
 - **Distancia entre paralelas** Ax + By + C₁ = 0 y Ax + By + C₂ = 0: d = |C₁ − C₂| / √(A² + B²)
 - **Intersección de rectas:** resuelve el sistema.
 
-### 12.4 Ejemplos resueltos
+### 13.4 Ejemplos resueltos
 
 **Ejemplo 1.** Recta que pasa por (1, 2) y (3, 8).
 > m = 6/2 = 3 ⟹ y − 2 = 3(x − 1) ⟹ **3x − y − 1 = 0**
@@ -930,7 +1024,7 @@ Escribe los vértices en columna, repitiendo el primero al final:
 **Ejemplo 5.** Intersección de x + y = 5 y 2x − y = 1.
 > Sumando: 3x = 6 ⟹ **(2, 3)**
 
-### 12.5 Práctica
+### 13.5 Práctica
 
 1. Pendiente de la recta que pasa por (−1, 4) y (3, −4).
 2. Ecuación de la recta con m = −3 que pasa por (2, 5).
@@ -955,9 +1049,9 @@ Escribe los vértices en columna, repitiendo el primero al final:
 
 # 🟨 RAZONAMIENTO MATEMÁTICO
 
-## 13. Verdades y mentiras
+## 14. Verdades y mentiras
 
-### 13.1 Estrategias
+### 14.1 Estrategias
 
 1. **Busca contradicciones:** si dos afirmaciones se contradicen (una dice lo opuesto de la otra, o "X miente"), **exactamente una es verdadera**. Esto te dice cómo se reparten las demás.
 2. **Busca afirmaciones equivalentes:** si dos personas dicen lo mismo, **ambas mienten o ambas dicen la verdad**.
@@ -969,7 +1063,7 @@ Escribe los vértices en columna, repitiendo el primero al final:
 - Nadie puede decir "Yo soy mentiroso" (sería contradicción en ambos casos).
 - Si A dice "B y yo somos del mismo tipo" ⟹ B es veraz (¡pruébalo!).
 
-### 13.2 Ejemplos resueltos
+### 14.2 Ejemplos resueltos
 
 **Ejemplo 1.** Uno de cuatro amigos rompió un jarrón. **Solo uno dice la verdad**.
 - A: "Fue B." · B: "Fue D." · C: "Yo no fui." · D: "B miente."
@@ -985,7 +1079,7 @@ Escribe los vértices en columna, repitiendo el primero al final:
 **Ejemplo 3.** En una isla hay veraces y mentirosos. A dice: "B y yo somos mentirosos."
 > Si A fuera veraz, sería mentiroso: contradicción ⟹ **A es mentiroso** ⟹ su frase es falsa ⟹ no ambos son mentirosos ⟹ **B es veraz**.
 
-### 13.3 Práctica
+### 14.3 Práctica
 
 1. Uno de cuatro amigos rompió la ventana. **Solo uno miente**.
    A: "Fue C." · B: "No fue A." · C: "Fue D." · D: "C miente." ¿Quién fue?
@@ -1006,9 +1100,9 @@ Escribe los vértices en columna, repitiendo el primero al final:
 
 ---
 
-## 14. Calendarios
+## 15. Calendarios
 
-### 14.1 Datos fundamentales
+### 15.1 Datos fundamentales
 
 - **1 semana = 7 días.** Todo se resuelve con **residuos de dividir entre 7**.
 - **Año común:** 365 días = 52 semanas + **1 día**.
@@ -1021,7 +1115,7 @@ Escribe los vértices en columna, repitiendo el primero al final:
 
 ✋ **Truco de los nudillos:** los nudillos son meses de 31 días, los huecos de 30 (o febrero).
 
-### 14.2 Reglas prácticas
+### 15.2 Reglas prácticas
 
 1. **Avanzar N días:** calcula N ÷ 7 y fíjate en el **residuo**. Residuo 0 = mismo día.
 2. **La misma fecha al año siguiente** avanza **1 día** de la semana, o **2** si en medio hay un 29 de febrero.
@@ -1029,7 +1123,7 @@ Escribe los vértices en columna, repitiendo el primero al final:
 4. Un mes de **31 días** tiene **3 días de la semana que se repiten 5 veces** (los tres primeros del mes). Uno de 30 días: 2; febrero bisiesto: 1.
 5. **Lenguaje temporal:** hoy = 0 ; mañana = +1 ; pasado mañana = +2 ; ayer = −1 ; anteayer = −2. **Suma los valores.**
 
-### 14.3 Ejemplos resueltos
+### 15.3 Ejemplos resueltos
 
 **Ejemplo 1.** Si el 5 de marzo es martes, ¿qué día es el 28 de marzo?
 > 28 − 5 = 23 ; 23 = 7·3 + **2** ⟹ martes + 2 = **jueves**
@@ -1047,7 +1141,7 @@ Escribe los vértices en columna, repitiendo el primero al final:
 > Anteayer de mañana = −2 + 1 = −1 = lunes ⟹ hoy es martes.
 > Pasado mañana de ayer = +2 − 1 = +1 ⟹ **miércoles**
 
-### 14.4 Práctica
+### 15.4 Práctica
 
 1. Si el 3 de octubre es lunes, ¿qué día es el 31 de octubre?
 2. Si el 1 de enero de un año común es jueves, ¿qué día es el 31 de diciembre? ¿Y el 1 de enero siguiente?
@@ -1072,9 +1166,9 @@ Escribe los vértices en columna, repitiendo el primero al final:
 
 # 🟥 TRIGONOMETRÍA
 
-## 15. Sistemas de medidas angulares
+## 16. Sistemas de medidas angulares
 
-### 15.1 Los tres sistemas
+### 16.1 Los tres sistemas
 
 | Sistema | 1 vuelta | Subunidades |
 |---------|----------|-------------|
@@ -1084,7 +1178,7 @@ Escribe los vértices en columna, repitiendo el primero al final:
 
 **Equivalencias base:** 180° = 200ᵍ = π rad  ⟹  **9° = 10ᵍ**  ;  **27' = 50ᵐ**  ;  **81'' = 250ˢ**
 
-### 15.2 Fórmula general de conversión
+### 16.2 Fórmula general de conversión
 
 **S/180 = C/200 = R/π**   o, simplificando,   **S/9 = C/10 = 20R/π = k**
 
@@ -1095,7 +1189,7 @@ Escribe los vértices en columna, repitiendo el primero al final:
 - rad → grados: × 180°/π
 - grados centesimales → sexagesimales: × 9°/10ᵍ
 
-### 15.3 Ejemplos resueltos
+### 16.3 Ejemplos resueltos
 
 **Ejemplo 1.** Convierte 72° a radianes.
 > 72·π/180 = **2π/5 rad**
@@ -1115,7 +1209,7 @@ Escribe los vértices en columna, repitiendo el primero al final:
 **Ejemplo 6.** Convierte 27°15' a grados decimales.
 > 15' = 15/60 = 0,25° ⟹ **27,25°**
 
-### 15.4 Práctica
+### 16.4 Práctica
 
 1. Convierte 150° a radianes.
 2. Convierte 7π/12 rad a grados sexagesimales.
@@ -1138,9 +1232,9 @@ Escribe los vértices en columna, repitiendo el primero al final:
 
 ---
 
-## 16. Sector circular
+## 17. Sector circular
 
-### 16.1 Fórmulas (θ SIEMPRE en radianes ⚠️)
+### 17.1 Fórmulas (θ SIEMPRE en radianes ⚠️)
 
 | Elemento | Fórmula |
 |----------|---------|
@@ -1152,7 +1246,7 @@ Escribe los vértices en columna, repitiendo el primero al final:
 
 ✅ Si en un sector el **perímetro = 3r**, entonces L = r y **θ = 1 rad**.
 
-### 16.2 Ejemplos resueltos
+### 17.2 Ejemplos resueltos
 
 **Ejemplo 1.** r = 6 y θ = π/3. Halla L y el área.
 > L = 6·π/3 = **2π** ; S = (π/3)·36/2 = **6π**
@@ -1169,7 +1263,7 @@ Escribe los vértices en columna, repitiendo el primero al final:
 **Ejemplo 5.** Una rueda de radio 0,5 m recorre 100π m. ¿Cuántas vueltas da?
 > 2π(0,5) = π ⟹ n = 100π/π = **100 vueltas**
 
-### 16.3 Práctica
+### 17.3 Práctica
 
 1. r = 10 y θ = 36°. Halla L.
 2. r = 4 y θ = π/2. Halla el área del sector.
@@ -1190,9 +1284,9 @@ Escribe los vértices en columna, repitiendo el primero al final:
 
 ---
 
-## 17. Razones trigonométricas del ángulo agudo
+## 18. Razones trigonométricas del ángulo agudo
 
-### 17.1 Definiciones
+### 18.1 Definiciones
 
 En un triángulo rectángulo, para el ángulo agudo α:
 **CO** = cateto opuesto, **CA** = cateto adyacente, **H** = hipotenusa.
@@ -1205,7 +1299,7 @@ En un triángulo rectángulo, para el ángulo agudo α:
 
 🧠 **Regla mnemotécnica:** "**SOH – CAH – TOA**" (Seno = Opuesto/Hipotenusa, Coseno = Adyacente/Hipotenusa, Tangente = Opuesto/Adyacente).
 
-### 17.2 Propiedades
+### 18.2 Propiedades
 
 1. **Recíprocas:** sen α · csc α = 1 ; cos α · sec α = 1 ; tan α · cot α = 1
    ⟹ Si sen(A)·csc(B) = 1, entonces **A = B**.
@@ -1214,7 +1308,7 @@ En un triángulo rectángulo, para el ángulo agudo α:
    ⟹ Si sen A = cos B, entonces **A + B = 90°**.
 3. Para ángulo agudo: 0 < sen α < 1 ; 0 < cos α < 1 ; tan α > 0.
 
-### 17.3 Triángulos rectángulos notables
+### 18.3 Triángulos rectángulos notables
 
 | Ángulos | Catetos | Hipotenusa |
 |---------|---------|------------|
@@ -1227,7 +1321,7 @@ En un triángulo rectángulo, para el ángulo agudo α:
 | **37°/2** | k y 3k | √10 k |
 | **53°/2** | k y 2k | √5 k |
 
-### 17.4 Tabla de valores (¡de memoria!)
+### 18.4 Tabla de valores (¡de memoria!)
 
 | | 30° | 37° | 45° | 53° | 60° |
 |---|---|---|---|---|---|
@@ -1238,7 +1332,7 @@ En un triángulo rectángulo, para el ángulo agudo α:
 | **sec** | 2√3/3 | 5/4 | √2 | 5/3 | 2 |
 | **csc** | 2 | 5/3 | √2 | 5/4 | 2√3/3 |
 
-### 17.5 Ejemplos resueltos
+### 18.5 Ejemplos resueltos
 
 **Ejemplo 1.** Si sen α = 3/5 (α agudo), halla tan α y sec α.
 > CO = 3, H = 5 ⟹ CA = 4 ⟹ tan α = **3/4** ; sec α = **5/4**
@@ -1258,7 +1352,7 @@ En un triángulo rectángulo, para el ángulo agudo α:
 **Ejemplo 6.** La hipotenusa de un triángulo rectángulo mide 10 y uno de sus ángulos es 37°. Halla los catetos.
 > 5k = 10 ⟹ k = 2 ⟹ catetos **6** (opuesto a 37°) y **8**
 
-### 17.6 Práctica
+### 18.6 Práctica
 
 1. Si cos θ = 12/13 (θ agudo), halla tan θ.
 2. Calcula E = 5sen37° + 2cos60°.
@@ -1367,6 +1461,7 @@ En un triángulo rectángulo, para el ángulo agudo α:
 | Funciones | Vértice h = −b/2a ; racional: Ran = ℝ − {a/c} |
 | △ rectángulo | a² + b² = c² ; h² = mn ; a² = cm ; ab = ch |
 | △ oblicuángulo | Herón √[p(p − a)(p − b)(p − c)] ; a² + b² = 2m² + c²/2 |
+| Circunferencia | Cuerdas PA·PB = PC·PD ; secantes PA·PB = PC·PD ; tangente PT² = PA·PB ; (c/2)² + d² = r² |
 | Polígonos | Int: 180(n − 2)/n ; diag: n(n − 3)/2 ; l₃ = R√3 ; l₄ = R√2 ; l₆ = R |
 | Analítica | d = √(Δx² + Δy²) ; P = (A + rB)/(1 + r) ; G = Σ/3 ; Área = ½\|D − I\| |
 | Recta | m = Δy/Δx ; y − y₁ = m(x − x₁) ; m₁m₂ = −1 ; d = \|Ax₀ + By₀ + C\|/√(A² + B²) |
